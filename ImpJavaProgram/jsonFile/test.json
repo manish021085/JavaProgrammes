@@ -1,0 +1,14 @@
+{
+   "firstName": "Manish",
+   "lastName": "Kumar",
+   "gender": "male",
+   "age": 35,
+   "address": {
+       "streetAddress": "101",
+       "city": "Firozabad",
+       "state": "UP"
+   },
+   "phoneNumbers": [
+       { "type": "home", "number": "123456789" }
+   ]
+}

@@ -1,0 +1,27 @@
+package ImpJavaProgram.ImpJavaProgram.pdf;
+
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.text.PDFTextStripper;
+
+
+
+public class VerifyDocumentByPageNumber {
+	public static String currentDir = System.getProperty("user.dir");
+	public static void main(String[] args) throws IOException {
+		
+		PDDocument document = PDDocument.load(new File(currentDir + "/pdfFile/Manish Kumar Singh-Resume.pdf"));
+		int count = document.getNumberOfPages();
+		System.out.println("No.of page in document : " + count);
+		if (!document.isEncrypted()) {
+		    PDFTextStripper stripper = new PDFTextStripper();
+		    String text = stripper.getText(document);
+		    System.out.println("Text:" + text);
+		}
+		document.close();
+		
+	}
+
+}

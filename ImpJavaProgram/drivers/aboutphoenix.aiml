@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+
+<category>
+	<pattern>About Phoenix</pattern>
+	<template>
+	    <button><text>Phoenix Features</text><postback>Phoenix Features</postback></button>
+	    <button><text>Contact Us</text><postback>Contact Us</postback></button>
+	    <button><text>Phoenix Subscriptions</text><postback>Phoenix Subscriptions</postback></button>
+	    <button><text>Help</text><postback>Help</postback></button>
+	    <button><text>Terms and conditions</text><postback>Terms and conditions</postback></button>
+	    </template>
+</category>
+
+
+<category>
+<pattern>Phoenix Features</pattern>
+	<template>
+	    <button><text>To Do</text><postback>To Do</postback></button>
+	    <button><text>Zoom</text><postback>Zoom</postback></button>
+	    <button><text>Post</text><postback>Post</postback></button>
+	    <button><text>Drive</text><postback>Drive</postback></button>
+	    <button><text>Phoenix Chat</text><postback>Phoenix Chat</postback></button>
+	    </template>
+</category>
+
+
+<category>
+	<pattern>Contact Us</pattern>
+	<template>Coming Soon</template>
+</category>
+
+
+<category>
+	<pattern>Phoenix Subscriptions</pattern>
+	<template>
+	    <button><text>How much does Phoenix cost?</text><postback>How much does Phoenix cost</postback></button>
+	    <button><text>Is there any free trial?</text><postback>Is there any free trial</postback></button>
+	    <button><text>I need to cancel my subscription.</text><postback>I need to cancel my subscription</postback></button>
+	    <button><text>I need to transfer my subscription to another email.</text><postback>I need to transfer my subscription to another email</postback></button>
+	    </template>
+</category>
+
+ 
+<category>
+	<pattern>How much does Phoenix cost</pattern>
+	<template>Coming Soon</template>
+</category>
+
+
+<category>
+	<pattern>Is there any free trial</pattern>
+	<template>For now, it's free.</template>
+</category>
+
+
+<category>
+	<pattern>I need to cancel my subscription</pattern>
+	    <template>Coming Soon</template> 
+</category>
+
+
+<category>
+	<pattern>I need to transfer my subscription to another email</pattern>
+	<template>Coming Soon</template>
+</category>
+
+
+<category>
+	<pattern>Help</pattern>
+	<template>
+	     <button><text>Download and Installation</text><postback>Download and Installation</postback></button>
+	     <button><text>Unable to create Phoenix Account</text><postback>Unable to create Phoenix Account</postback></button>
+	     <button><text>Phoenix Account got blocked</text><postback>Phoenix Account got blocked</postback></button>
+	     <button><text>Forgot password not working</text><postback>Forgot password not working</postback></button>
+	    </template>
+</category>
+
+
+<category>
+	<pattern>Download and Installation</pattern>
+	<template>
+	     <button><text>About supported Operating systems</text><postback>About supported Operating systems</postback></button>
+	     <button><text>Unable to Log out.</text><postback>Unable to Log out</postback></button>
+	     <button><text>How to download Phoenix Desktop</text><postback>How to download Phoenix Desktop</postback></button>
+	    </template>
+</category>
+
+
+<category>
+	<pattern>About supported Operating systems</pattern>
+	<template>We provide support for MacOS, Windows and Linux. It's not working in Mobile app.
+	    I hope this was helpful.
+         <button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button></template>
+</category>
+
+
+<category>
+	<pattern>Unable to Log out</pattern>
+	<template>Process for logging out in app and browser are quite similar:
+	            1. Click on the 'user profile' option.
+	            2. Click on the 'Logout' option.
+	           I hope this was helpful.
+         <button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button></template>
+</category>
+
+
+<category>
+	<pattern>How to download Phoenix Desktop</pattern>
+	<template>Coming soon</template>
+</category>
+
+
+<category>
+	<pattern>Unable to create Phoenix Account</pattern>
+	<template>Kindly, follow the below steps to create new account:
+	         1. Click on the ‘Create account’ button.
+	         2. Fill all the details required for registration of the account.
+	         3. Click on the ‘sign me up’ button.
+	         4. Click on the registration button.
+	            I hope this was helpful.
+         <button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button></template>
+</category>
+
+
+<category>
+	<pattern>Phoenix Account got blocked</pattern>
+	<template>Coming Soon</template>
+</category>
+
+
+<category>
+	<pattern>Forgot password not working</pattern>
+	<template>
+	     <button><text>From login page</text><postback>From login page</postback></button>
+	     <button><text>From setting option</text><postback>From setting option</postback></button>
+	    </template>
+</category>
+
+
+<category>
+	<pattern>From login page</pattern>
+	<template>Kindly, follow the below steps to forgot the password:
+	         1. Click on the 'Forgot Password' link.
+	         2. Enter the registered Email ID.
+	         3. Go to the Gmail.
+	         4. Open the email received from Phoenix.
+	         5. Click on the 'Click Here' in the email.
+	         6. Enter 'New password' in the 'New password' field.
+	         7. Retype 'New password' in the 'confirmation password' field.
+	         8. Click on the 'save' button.
+	           I hope this was helpful.
+         <button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button></template>
+</category>
+
+
+<category>
+	<pattern>From setting</pattern>
+	<template>Kindly, follow the below steps to forgot the password:
+	         1. Click on the 'user profile' option.
+	         2. Click on the 'setting' option.
+	         3. Select the 'Change password' option.
+	         4. Click on the 'Forgot Password' link.
+	         5. Enter the registered Email ID.
+	         6. Go to the Gmail.
+	         7. Open the email received from Phoenix.
+	         8. Click on the 'Click Here' in the email.
+	         9. Enter 'New password' in the 'New password' field.
+	         10. Retype 'New password' in the 'confirmation password' field.
+	         11. Click on the 'save' button.
+	            I hope this was helpful.
+         <button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button></template>
+</category>
+
+
+
+<category>
+<pattern>Terms and conditions</pattern>
+	<template>Generic Terms and Conditions Template:
+Please read these terms and conditions carefully before using our platform. 
+1. You must be at least 18 (eighteen) years of age before you can use this website. By using this website, you warrant that you are at least 18 years of age and you may legally adhere to this Agreement.
+2. As a user of this website, you may be asked to register with us and provide private information.You are responsible for ensuring the accuracy of this information, and you are responsible for maintaining the safety and security of your identifying information. 
+3. You are responsible for all activities that occur under your account or password.
+4. If you think there are any possible issues regarding the security of your account on the website, inform us immediately so we may address them accordingly.
+5. We reserve all rights to terminate accounts, edit or remove content and cancel orders at our sole discretion.
+I hope this was helpful.
+         <button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button>
+</template>
+</category>
+
+
+<category>
+<pattern>To Do</pattern>
+	<template>
+	    <button><text>Add Task</text><postback>Add Task</postback></button>
+	    <button><text>Edit Task</text><postback>Edit Task</postback></button>
+	    <button><text>Delete Task</text><postback>Delete Task</postback></button>
+	     <button><text>Complete Task</text><postback>Complete Task</postback></button>
+	     <button><text>Mark the Task as Favorite</text><postback>Mark the Task as Favorite</postback></button>
+	    <button><text>Mark the Task as Important</text><postback>Mark the Task as Important</postback></button>
+	    </template>
+</category>
+
+
+<category>
+<pattern>Add Task</pattern>
+	<template>Kindly, follow the below steps for adding a task in To-Do:
+	 1. Open the Todo App.       
+	 2. Add the required task on "add todo" Bar.
+	 3. Click on the "+" button.
+	    Task will be created successfully.
+	      I hope this was helpful.
+         <button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button>
+	   </template>    
+</category>
+
+
+<category>
+<pattern>Edit Task</pattern>
+	<template>Kindly, follow the below steps to edit a task in To-Do:
+	          1. Open the Todo App.
+	          2. Click on the task which requires Editing.
+	          3. Edit the task.
+	          4. Click on "Save" to make the changes successfully.
+	          I hope this was helpful.
+         <button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button></template>
+</category>
+
+
+<category>
+<pattern>Delete Task</pattern>
+	<template>Kindly, follow the below steps to Delete a task in To-Do:
+	         1. Open the Todo App.
+	         2. Click on the task which you want to delete.
+	         3. Click on the delete icon.
+	         4. click on "Yes" button to delete permanently.
+	           I hope this was helpful.
+         <button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button></template>
+</category>
+
+
+<category>
+<pattern>Complete Task</pattern>
+	<template>Kindly, follow the below steps to mark the task as Completed in To-Do:
+	      1. Open the Todo App.
+	      2. Hover on the task which you want to mark as completed.
+	      3. Click on the 'check box' icon to mark the task as completed.
+	       I hope this was helpful.
+         <button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button></template>
+</category>
+
+
+<category>
+<pattern>Mark the Task as Favorite</pattern>
+	<template>Kindly, follow the below steps to mark the task as Favorite in To-Do:
+	    1. Open the Todo App.
+	    2. Hover on the task which you want to make favorite.
+	    3. Click on the favorite icon to mark the task as favorite.
+	       I hope this was helpful.
+         <button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button></template>
+</category>
+
+
+<category>
+<pattern>Mark the Task as Important</pattern>
+	<template>Kindly, follow the below steps to mark the task as Important in To-Do:
+	     1. Open the Todo App.
+	     2. Hover on the task which you want to make as Important.
+	     3. Click on the Important icon to mark the task as Important. 
+	       I hope this was helpful.
+         <button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button></template>
+</category>
+
+
+<category>
+<pattern>Zoom</pattern>
+	<template>
+	    <button><text>Create Meeting</text><postback>Create Meeting</postback></button>
+	    <button><text>List of Meetings</text><postback>List of Meetings</postback></button>
+	    </template>
+</category>
+
+
+<category>
+<pattern>Create Meeting</pattern>
+	<template>
+	    <button><text>Instant Meeting</text><postback>Instant Meeting</postback></button>
+	    <button><text>Schedule Meeting</text><postback>Schedule Meeting</postback></button>
+	    <button><text>Recurring Meeting</text><postback>Recurring Meeting</postback></button>
+	    </template>
+</category>
+
+
+<category>
+<pattern>List of Meetings</pattern>
+	<template>It will preview only recurring and scheduled meetings list.
+	I hope this was helpful.
+         <button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button></template>
+</category>
+
+<category>
+<pattern>Instant Meeting</pattern>
+	<template>Kindly, follow the below steps to create instant meeting:
+		     1. Click on the ‘zoom’ icon.
+	         2. Select the ‘create meet’ option.
+	         3. Select meeting type as 'Instant'.
+	         4. Click on the 'Next' button
+	         5. Provide the topic for the meeting.
+	         6. Click on the 'Next' button.
+	         7. Provide the passcode.
+	         8. Click on the 'Finish' button.
+	         9. Click on the 'Create meet' button.
+	         10. Go to the meeting in the 'create meet' option. (@step9).
+	         11. Click on the Join button. 
+	            I hope this was helpful.
+			<button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button> 
+	    </template>
+</category>
+
+<category>
+<pattern>Schedule Meeting</pattern>
+	<template>
+	    <button><text>Schedule for Today</text><postback>Schedule for Today</postback></button>
+	    <button><text>Schedule for Tomorrow</text><postback>Schedule for Tomorrow</postback></button>
+	    </template>
+</category>
+
+<category>
+<pattern>Recurring Meeting</pattern>
+	<template>
+	    <button><text>Recurring for Today</text><postback>Recurring for Today</postback></button>
+	    <button><text>Recurring for Tomorrow</text><postback>Recurring for Tomorrow</postback></button>
+	    </template>
+</category>
+
+<category>
+	<pattern>Schedule for Today</pattern>
+	   <template>Coming Soon</template>
+</category>
+
+<category>
+	<pattern>Schedule for Tomorrow</pattern>
+	   <template>Coming Soon</template>
+</category>
+
+<category>
+	<pattern>Recurring for Today</pattern>
+	   <template>Coming Soon</template>
+</category>
+
+<category>
+	<pattern>Recurring for Tomorrow</pattern>
+	   <template>Coming Soon</template>
+</category>
+
+<category>
+<pattern>Post</pattern>
+	<template>
+	    <button><text>How to create link from the text?</text><postback>How to create link from the text?</postback></button>
+	    <button><text>How to send files from Post?</text><postback>How to send files from Post?</postback></button>
+	    <button><text>How to send messages on another chat platform from Post?</text><postback>How to send messages by using Post?</postback></button>
+	    </template>
+</category>
+
+<category>
+<pattern>How to create link from the text</pattern>
+	<template>Kindly, follow the below steps to create a link from the text:
+	         1. Open the POST.
+	         2. write any text (whatever you want).
+	         3. Click on the link icon.
+	         4. Text will become link.
+	         5. Click on the same text.
+	           I hope this was helpful.
+         <button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button></template>
+</category>
+
+
+<category>
+<pattern>How to send files from Post</pattern>
+	<template>Kindly, follow the below steps to create a link from the text:
+	         1. Open the POST.
+	         2. Click on the Image icon.
+	         4. Search the channel (In which you want to share).
+	         5. Click on the send button.
+	            I hope this was helpful.
+         <button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button></template>
+</category>
+
+
+<category>
+<pattern>How to send messages on another chat platform from Post</pattern>
+	<template>Kindly, follow the below steps to create a link from the text:
+	         1. Open the POST.
+	         2. write any text (whatever you want).
+	         3. Search the channel (In which you want to share).
+	         4. Click on the send button.
+	       I hope this was helpful.
+         <button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button></template>
+</category>
+
+
+<category>
+<pattern>Drive</pattern>
+	<template>
+	     <button><text>How to sync my Phoenix account with my Google account?</text><postback>How to sync my Phoenix account with my Google account?</postback></button>
+	    <button><text>How can we share files from Phoenix?</text><postback>How can we share files from Phoenix?</postback></button>
+	    <button><text>Is the file deleted permanently from Google drives?</text><postback>Is the file deleted permanently from Google drives?</postback></button>
+	     <button><text>A file is not showing in Google Drive?</text><postback>A file is not showing in Google Drive?</postback></button>
+	    </template>
+</category>
+
+
+<category>
+<pattern>How to sync my Phoenix account with my Google account</pattern>
+	<template>Once log in to Phoenix you will be asked to log in to Google drive. Once logged in with the correct credentials your account will be sync with Phoenix.
+	            I hope this was helpful.
+         <button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button></template>
+</category>
+
+
+<category>
+<pattern>How can we share files from Phoenix</pattern>
+	<template>The file can be shared via the below option available
+             1. Getlink- It copies the link of the file and you can paste it to any chat platform in order to share the file.
+             2. Share to- Slack( Give the path)
+       I hope this was helpful.
+         <button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button></template>
+</category>
+
+
+<category>
+<pattern>Is the file deleted permanently from Google drives</pattern>
+	<template>The file once deleted it goes to the trash folder and Once deleted from the Trash folder the file is deleted permanently.
+	           I hope this was helpful.
+         <button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button></template>
+</category>
+
+
+<category>
+<pattern>A file is not showing in Google Drive</pattern>
+	<template>I apologize for the inconvenience, Have you deleted the file earlier?
+	            I hope this was helpful.
+         <button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button></template>
+</category>
+
+
+
+<category>
+<pattern>Phoenix Chat</pattern>
+	<template>
+	    <button><text>Create Instant Zoom meeting</text><postback>Create Instant Zoom meeting</postback></button>
+	    <button><text>Create room</text><postback>Create room</postback></button>
+	    <button><text>Add Members</text><postback>Add Members</postback></button>
+	     <button><text>Forwarding message limits</text><postback>Forwarding message limits</postback></button>
+	     <button><text>Voice Message</text><postback>Voice Message</postback></button>
+	    <button><text>Report message</text><postback>Report message</postback></button>
+	    <button><text>How to mention person in a group</text><postback>How to mention person in a group</postback></button>
+	    <button><text>Can I retrieve deleted messages?</text><postback>Can I retrieve deleted messages?</postback></button>
+	    <button><text>How to I see archive messages?</text><postback>How to I see archive message?</postback></button>
+	    </template>
+</category>
+
+
+<category>
+<pattern>Create Instant Zoom meeting</pattern>
+	<template>Kindly, follow the below steps to create a link from the text:
+	         1. Open the Phoenix Chat.
+	         2. Open any chat.
+	         3. Click on the zoom icon.
+	         4. Give title.
+	         5. Click on 'Create' button.
+	           I hope this was helpful.
+         <button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button></template>
+</category>
+
+
+<category>
+<pattern>Create room</pattern>
+	<template>Kindly, follow the below steps to create a link from the text:
+	         1. Open the Phoenix Chat.
+	         2. Click on 'Create room'.
+	         3. Select members (Minimum 3 members).
+	         4. Click on the 'Create room' Button.
+	       I hope this was helpful.
+         <button><text>Yes</text><postback>Yes</postback></button>
+	    <button><text>No</text><postback>No</postback></button></template>
+</category>
+
+<category>
+<pattern>Add Members</pattern>
+	<template>Coming Soon</template>
+</category>
+
+
+<category>
+<pattern>Forwarding message limits</pattern>
+	<template>Coming Soon</template>
+</category>
+
+
+<category>
+<pattern>Voice Message</pattern>
+	<template>Coming Soon</template>
+</category>
+
+
+<category>
+<pattern>Report message</pattern>
+	<template>Coming Soon</template>
+</category>
+
+
+<category>
+<pattern>How to mention person in a group</pattern>
+	<template>Coming Soon</template>
+</category>
+
+
+<category>
+<pattern>Can I retrieve deleted messages</pattern>
+	<template>No, once the message was deleted from the user. There's is no option available.</template>
+</category>
+
+
+<category>
+<pattern>How to I see archive messages</pattern>
+	<template>Coming Soon</template>
+</category>
+
+
+<category>
+<pattern>Yes</pattern>
+	<template>Thank You for contacting us. Have a nice day!!</template>
+            </category>
+       
+<category>
+       <pattern>No</pattern>
+	<template>I'm sorry to hear that. Kindly email us with your query at 'phoenixsupport.com'.
+	We will get back to you with a resolution as earliest possibilities.
+	Thank You for your time. Have a nice day!!</template>
+</category>
+
+</aiml>

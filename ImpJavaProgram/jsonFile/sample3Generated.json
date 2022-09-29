@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "62664078ae3f031d1248248d",
+    "email": "lttest3@lalitech.com",
+    "password": "$2b$08$GmD3zpisxc0mUGC58LP9buVn99EFOcifW5D/sqWCn3hvVoSUZnfOS",
+    "alias": "Lalitechtest Userthree",
+    "type": "user"
+  },
+  {
+    "_id": "6266437eae3f031d1248249d",
+    "email": "manish@lalitech.com",
+    "password": "$2b$08$3F.sGtoAKxci2oLdzfE44uLgYRzHUlkd.Bkpp/N9pKWzEeCTuBgMm",
+    "alias": "Manish Kumar",
+    "type": "user"
+  }
+]

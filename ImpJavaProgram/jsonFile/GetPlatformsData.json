@@ -1,0 +1,869 @@
+{
+  "slack": {
+    "ok": true,
+    "channels": [
+      {
+        "id": "CBXQ2PUBT",
+        "name": "general",
+        "is_channel": true,
+        "is_group": false,
+        "is_im": false,
+        "is_mpim": false,
+        "is_private": false,
+        "created": 1532709785,
+        "is_archived": false,
+        "is_general": true,
+        "unlinked": 0,
+        "name_normalized": "general",
+        "is_shared": false,
+        "is_org_shared": false,
+        "is_pending_ext_shared": false,
+        "pending_shared": [],
+        "parent_conversation": null,
+        "creator": "UBXKC3GGY",
+        "is_ext_shared": false,
+        "shared_team_ids": [
+          "TBY71ASJX"
+        ],
+        "pending_connected_team_ids": [],
+        "is_member": true,
+        "topic": {
+          "value": "Company-wide announcements and work-based matters",
+          "creator": "UBXKC3GGY",
+          "last_set": 1532709785
+        },
+        "purpose": {
+          "value": "This channel is for workspace-wide communication and announcements. All members are in this channel.",
+          "creator": "UBXKC3GGY",
+          "last_set": 1532709785
+        },
+        "previous_names": [],
+        "num_members": 13
+      },
+      {
+        "id": "CBYB017BL",
+        "name": "random",
+        "is_channel": true,
+        "is_group": false,
+        "is_im": false,
+        "is_mpim": false,
+        "is_private": false,
+        "created": 1532709785,
+        "is_archived": false,
+        "is_general": false,
+        "unlinked": 0,
+        "name_normalized": "random",
+        "is_shared": false,
+        "is_org_shared": false,
+        "is_pending_ext_shared": false,
+        "pending_shared": [],
+        "parent_conversation": null,
+        "creator": "UBXKC3GGY",
+        "is_ext_shared": false,
+        "shared_team_ids": [
+          "TBY71ASJX"
+        ],
+        "pending_connected_team_ids": [],
+        "is_member": false,
+        "topic": {
+          "value": "Non-work banter and water cooler conversation",
+          "creator": "UBXKC3GGY",
+          "last_set": 1532709785
+        },
+        "purpose": {
+          "value": "A place for non-work-related flimflam, faffing, hodge-podge or jibber-jabber you'd prefer to keep out of more focused work-related channels.",
+          "creator": "UBXKC3GGY",
+          "last_set": 1532709785
+        },
+        "previous_names": [],
+        "num_members": 10
+      },
+      {
+        "id": "C022MFXSHGT",
+        "name": "bot4",
+        "is_channel": true,
+        "is_group": false,
+        "is_im": false,
+        "is_mpim": false,
+        "is_private": false,
+        "created": 1621576353,
+        "is_archived": false,
+        "is_general": false,
+        "unlinked": 0,
+        "name_normalized": "bot4",
+        "is_shared": false,
+        "is_org_shared": false,
+        "is_pending_ext_shared": false,
+        "pending_shared": [],
+        "parent_conversation": null,
+        "creator": "U01GEHNCEKT",
+        "is_ext_shared": false,
+        "shared_team_ids": [
+          "TBY71ASJX"
+        ],
+        "pending_connected_team_ids": [],
+        "is_member": false,
+        "topic": {
+          "value": "",
+          "creator": "",
+          "last_set": 0
+        },
+        "purpose": {
+          "value": "",
+          "creator": "",
+          "last_set": 0
+        },
+        "previous_names": [],
+        "num_members": 2
+      },
+      {
+        "id": "C023BEQ5DJA",
+        "name": "backend-channel",
+        "is_channel": true,
+        "is_group": false,
+        "is_im": false,
+        "is_mpim": false,
+        "is_private": false,
+        "created": 1622460212,
+        "is_archived": false,
+        "is_general": false,
+        "unlinked": 0,
+        "name_normalized": "backend-channel",
+        "is_shared": false,
+        "is_org_shared": false,
+        "is_pending_ext_shared": false,
+        "pending_shared": [],
+        "parent_conversation": null,
+        "creator": "U01G6GUDELW",
+        "is_ext_shared": false,
+        "shared_team_ids": [
+          "TBY71ASJX"
+        ],
+        "pending_connected_team_ids": [],
+        "is_member": true,
+        "topic": {
+          "value": "",
+          "creator": "",
+          "last_set": 0
+        },
+        "purpose": {
+          "value": "this is for testing",
+          "creator": "U01G6GUDELW",
+          "last_set": 1622460213
+        },
+        "previous_names": [],
+        "num_members": 5
+      },
+      {
+        "id": "C02RV7D5EBS",
+        "name": "automation",
+        "is_channel": true,
+        "is_group": false,
+        "is_im": false,
+        "is_mpim": false,
+        "is_private": false,
+        "created": 1639741552,
+        "is_archived": false,
+        "is_general": false,
+        "unlinked": 0,
+        "name_normalized": "automation",
+        "is_shared": false,
+        "is_org_shared": false,
+        "is_pending_ext_shared": false,
+        "pending_shared": [],
+        "parent_conversation": null,
+        "creator": "U02K9E1RAUD",
+        "is_ext_shared": false,
+        "shared_team_ids": [
+          "TBY71ASJX"
+        ],
+        "pending_connected_team_ids": [],
+        "is_member": false,
+        "topic": {
+          "value": "",
+          "creator": "",
+          "last_set": 0
+        },
+        "purpose": {
+          "value": "testing",
+          "creator": "U02K9E1RAUD",
+          "last_set": 1639741553
+        },
+        "previous_names": [],
+        "num_members": 3
+      },
+      {
+        "id": "C02SD63J0F8",
+        "name": "newprivatechannel",
+        "is_channel": true,
+        "is_group": false,
+        "is_im": false,
+        "is_mpim": false,
+        "is_private": true,
+        "created": 1641269907,
+        "is_archived": false,
+        "is_general": false,
+        "unlinked": 0,
+        "name_normalized": "newprivatechannel",
+        "is_shared": false,
+        "is_org_shared": false,
+        "is_pending_ext_shared": false,
+        "pending_shared": [],
+        "parent_conversation": null,
+        "creator": "U01TY0SDDS4",
+        "is_ext_shared": false,
+        "shared_team_ids": [
+          "TBY71ASJX"
+        ],
+        "pending_connected_team_ids": [],
+        "is_member": true,
+        "topic": {
+          "value": "",
+          "creator": "",
+          "last_set": 0
+        },
+        "purpose": {
+          "value": "just for testing",
+          "creator": "U01TY0SDDS4",
+          "last_set": 1641269908
+        },
+        "num_members": 3
+      },
+      {
+        "id": "C02SHQFUM39",
+        "name": "post-messages-bot",
+        "is_channel": true,
+        "is_group": false,
+        "is_im": false,
+        "is_mpim": false,
+        "is_private": false,
+        "created": 1641476135,
+        "is_archived": false,
+        "is_general": false,
+        "unlinked": 0,
+        "name_normalized": "post-messages-bot",
+        "is_shared": false,
+        "is_org_shared": false,
+        "is_pending_ext_shared": false,
+        "pending_shared": [],
+        "parent_conversation": null,
+        "creator": "U01FK2DNRLM",
+        "is_ext_shared": false,
+        "shared_team_ids": [
+          "TBY71ASJX"
+        ],
+        "pending_connected_team_ids": [],
+        "is_member": true,
+        "topic": {
+          "value": "",
+          "creator": "",
+          "last_set": 0
+        },
+        "purpose": {
+          "value": "",
+          "creator": "",
+          "last_set": 0
+        },
+        "previous_names": [],
+        "num_members": 4
+      },
+      {
+        "id": "C02TAKHTLQG",
+        "name": "testing",
+        "is_channel": true,
+        "is_group": false,
+        "is_im": false,
+        "is_mpim": false,
+        "is_private": false,
+        "created": 1641292066,
+        "is_archived": false,
+        "is_general": false,
+        "unlinked": 0,
+        "name_normalized": "testing",
+        "is_shared": false,
+        "is_org_shared": false,
+        "is_pending_ext_shared": false,
+        "pending_shared": [],
+        "parent_conversation": null,
+        "creator": "U01FK2DNRLM",
+        "is_ext_shared": false,
+        "shared_team_ids": [
+          "TBY71ASJX"
+        ],
+        "pending_connected_team_ids": [],
+        "is_member": true,
+        "topic": {
+          "value": "",
+          "creator": "",
+          "last_set": 0
+        },
+        "purpose": {
+          "value": "",
+          "creator": "",
+          "last_set": 0
+        },
+        "previous_names": [],
+        "num_members": 3
+      },
+      {
+        "id": "C02V18JRTAB",
+        "name": "todo-testing",
+        "is_channel": true,
+        "is_group": false,
+        "is_im": false,
+        "is_mpim": false,
+        "is_private": false,
+        "created": 1643101657,
+        "is_archived": false,
+        "is_general": false,
+        "unlinked": 0,
+        "name_normalized": "todo-testing",
+        "is_shared": false,
+        "is_org_shared": false,
+        "is_pending_ext_shared": false,
+        "pending_shared": [],
+        "parent_conversation": null,
+        "creator": "U01G251HF4K",
+        "is_ext_shared": false,
+        "shared_team_ids": [
+          "TBY71ASJX"
+        ],
+        "pending_connected_team_ids": [],
+        "is_member": false,
+        "topic": {
+          "value": "",
+          "creator": "",
+          "last_set": 0
+        },
+        "purpose": {
+          "value": "",
+          "creator": "",
+          "last_set": 0
+        },
+        "previous_names": [],
+        "num_members": 3
+      },
+      {
+        "id": "C030RSLG7CG",
+        "name": "test-003",
+        "is_channel": true,
+        "is_group": false,
+        "is_im": false,
+        "is_mpim": false,
+        "is_private": false,
+        "created": 1643104792,
+        "is_archived": false,
+        "is_general": false,
+        "unlinked": 0,
+        "name_normalized": "test-003",
+        "is_shared": false,
+        "is_org_shared": false,
+        "is_pending_ext_shared": false,
+        "pending_shared": [],
+        "parent_conversation": null,
+        "creator": "U02K9E1RAUD",
+        "is_ext_shared": false,
+        "shared_team_ids": [
+          "TBY71ASJX"
+        ],
+        "pending_connected_team_ids": [],
+        "is_member": false,
+        "topic": {
+          "value": "",
+          "creator": "",
+          "last_set": 0
+        },
+        "purpose": {
+          "value": "",
+          "creator": "",
+          "last_set": 0
+        },
+        "previous_names": [],
+        "num_members": 3
+      }
+    ],
+    "response_metadata": {
+      "next_cursor": "",
+      "scopes": [
+        "incoming-webhook",
+        "app_mentions:read",
+        "channels:history",
+        "channels:join",
+        "channels:manage",
+        "channels:read",
+        "chat:write",
+        "chat:write.customize",
+        "commands",
+        "emoji:read",
+        "files:write",
+        "files:read",
+        "groups:history",
+        "groups:read",
+        "im:history",
+        "im:read",
+        "im:write",
+        "mpim:history",
+        "mpim:read",
+        "mpim:write",
+        "remote_files:read",
+        "remote_files:share",
+        "remote_files:write",
+        "team:read",
+        "users.profile:read",
+        "users:write"
+      ],
+      "acceptedScopes": [
+        "channels:read",
+        "groups:read",
+        "mpim:read",
+        "im:read",
+        "read"
+      ]
+    }
+  },
+  "googleChat": {
+    "channels": [
+      {
+        "name": "spaces/AAAAKnsFVVE",
+        "type": "ROOM",
+        "singleUserBotDm": false,
+        "threaded": false,
+        "displayName": "Todo from Phoenix",
+        "memberships": [
+          {
+            "name": "spaces/AAAAKnsFVVE/members/103225342601708409161",
+            "state": "JOINED",
+            "member": {
+              "name": "users/103225342601708409161",
+              "displayName": "Bhawna Varshney",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2022-01-25T09:24:32.561317Z"
+          },
+          {
+            "name": "spaces/AAAAKnsFVVE/members/106886033806500809026",
+            "state": "JOINED",
+            "member": {
+              "name": "users/106886033806500809026",
+              "displayName": "Lalitech Test User 1",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2022-01-25T09:24:32.561317Z"
+          }
+        ]
+      },
+      {
+        "name": "spaces/AAAA74QWh-Q",
+        "type": "ROOM",
+        "singleUserBotDm": false,
+        "threaded": false,
+        "displayName": "front end",
+        "memberships": [
+          {
+            "name": "spaces/AAAA74QWh-Q/members/103410925036831005298",
+            "state": "JOINED",
+            "member": {
+              "name": "users/103410925036831005298",
+              "displayName": "Harveer Singh",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-05-03T14:48:44.865381Z"
+          },
+          {
+            "name": "spaces/AAAA74QWh-Q/members/110837451180721677114",
+            "state": "JOINED",
+            "member": {
+              "name": "users/110837451180721677114",
+              "displayName": "Madhurya Varshney",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-05-03T14:48:29.167538Z"
+          },
+          {
+            "name": "spaces/AAAA74QWh-Q/members/115278052922037112577",
+            "state": "JOINED",
+            "member": {
+              "name": "users/115278052922037112577",
+              "displayName": "Manohar Pamishetty",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-05-03T14:48:44.865381Z"
+          }
+        ]
+      },
+      {
+        "name": "spaces/AAAAOkhdGYI",
+        "type": "ROOM",
+        "singleUserBotDm": false,
+        "threaded": false,
+        "displayName": "new space",
+        "memberships": [
+          {
+            "name": "spaces/AAAAOkhdGYI/members/103410925036831005298",
+            "state": "JOINED",
+            "member": {
+              "name": "users/103410925036831005298",
+              "displayName": "Harveer Singh",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-12-15T07:58:43.189242Z"
+          }
+        ]
+      },
+      {
+        "name": "spaces/AAAAHl2rgl8",
+        "type": "ROOM",
+        "singleUserBotDm": false,
+        "threaded": true,
+        "displayName": "just a testing space",
+        "memberships": [
+          {
+            "name": "spaces/AAAAHl2rgl8/members/106886033806500809026",
+            "state": "JOINED",
+            "member": {
+              "name": "users/106886033806500809026",
+              "displayName": "Lalitech Test User 1",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2022-02-05T06:09:41.897810Z"
+          },
+          {
+            "name": "spaces/AAAAHl2rgl8/members/110837451180721677114",
+            "state": "JOINED",
+            "member": {
+              "name": "users/110837451180721677114",
+              "displayName": "Madhurya Varshney",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-12-04T09:32:06.699786Z"
+          }
+        ]
+      },
+      {
+        "name": "spaces/4QXTawAAAAE",
+        "type": "ROOM",
+        "singleUserBotDm": false,
+        "threaded": false,
+        "displayName": "",
+        "memberships": [
+          {
+            "name": "spaces/4QXTawAAAAE/members/103410925036831005298",
+            "state": "JOINED",
+            "member": {
+              "name": "users/103410925036831005298",
+              "displayName": "Harveer Singh",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-04-22T05:20:14.270Z"
+          },
+          {
+            "name": "spaces/4QXTawAAAAE/members/110837451180721677114",
+            "state": "JOINED",
+            "member": {
+              "name": "users/110837451180721677114",
+              "displayName": "Madhurya Varshney",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-04-22T05:20:14.270Z"
+          }
+        ]
+      },
+      {
+        "name": "spaces/AAAA4zEjN8c",
+        "type": "ROOM",
+        "singleUserBotDm": false,
+        "threaded": true,
+        "displayName": "Phoenix All",
+        "memberships": [
+          {
+            "name": "spaces/AAAA4zEjN8c/members/103225342601708409161",
+            "state": "JOINED",
+            "member": {
+              "name": "users/103225342601708409161",
+              "displayName": "Bhawna Varshney",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-04-09T20:15:46.050245Z"
+          },
+          {
+            "name": "spaces/AAAA4zEjN8c/members/103410925036831005298",
+            "state": "JOINED",
+            "member": {
+              "name": "users/103410925036831005298",
+              "displayName": "Harveer Singh",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-04-09T20:15:46.050245Z"
+          },
+          {
+            "name": "spaces/AAAA4zEjN8c/members/106886033806500809026",
+            "state": "JOINED",
+            "member": {
+              "name": "users/106886033806500809026",
+              "displayName": "Lalitech Test User 1",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2022-03-21T04:33:33.227177Z"
+          },
+          {
+            "name": "spaces/AAAA4zEjN8c/members/110837451180721677114",
+            "state": "JOINED",
+            "member": {
+              "name": "users/110837451180721677114",
+              "displayName": "Madhurya Varshney",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-04-09T20:15:46.050245Z"
+          },
+          {
+            "name": "spaces/AAAA4zEjN8c/members/111632116727691744406",
+            "state": "JOINED",
+            "member": {
+              "name": "users/111632116727691744406",
+              "displayName": "Govind Varshney",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-04-09T20:15:45.392043Z"
+          },
+          {
+            "name": "spaces/AAAA4zEjN8c/members/115278052922037112577",
+            "state": "JOINED",
+            "member": {
+              "name": "users/115278052922037112577",
+              "displayName": "Manohar Pamishetty",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-04-09T20:15:46.050245Z"
+          },
+          {
+            "name": "spaces/AAAA4zEjN8c/members/115878802501641088813",
+            "state": "JOINED",
+            "member": {
+              "name": "users/115878802501641088813",
+              "displayName": "Manish Kumar Singh",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-04-09T20:15:46.050245Z"
+          }
+        ]
+      },
+      {
+        "name": "spaces/AAAAHIHmHdE",
+        "type": "ROOM",
+        "singleUserBotDm": false,
+        "threaded": false,
+        "displayName": "Test room",
+        "memberships": [
+          {
+            "name": "spaces/AAAAHIHmHdE/members/110837451180721677114",
+            "state": "JOINED",
+            "member": {
+              "name": "users/110837451180721677114",
+              "displayName": "Madhurya Varshney",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-04-10T17:33:53.409444Z"
+          }
+        ]
+      },
+      {
+        "name": "spaces/AAAA0aOZtk4",
+        "type": "ROOM",
+        "singleUserBotDm": false,
+        "threaded": false,
+        "displayName": "testing",
+        "memberships": [
+          {
+            "name": "spaces/AAAA0aOZtk4/members/103225342601708409161",
+            "state": "JOINED",
+            "member": {
+              "name": "users/103225342601708409161",
+              "displayName": "Bhawna Varshney",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-04-05T06:38:18.268062Z"
+          },
+          {
+            "name": "spaces/AAAA0aOZtk4/members/103410925036831005298",
+            "state": "JOINED",
+            "member": {
+              "name": "users/103410925036831005298",
+              "displayName": "Harveer Singh",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-12-13T10:25:39.451422Z"
+          }
+        ]
+      },
+      {
+        "name": "spaces/r71_8YAAAAE",
+        "type": "DM",
+        "singleUserBotDm": true,
+        "threaded": false,
+        "displayName": "",
+        "memberships": [
+          {
+            "name": "spaces/r71_8YAAAAE/members/110837451180721677114",
+            "state": "JOINED",
+            "member": {
+              "name": "users/110837451180721677114",
+              "displayName": "Madhurya Varshney",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-12-13T06:22:42.318102Z"
+          }
+        ]
+      },
+      {
+        "name": "spaces/mJm4HoAAAAE",
+        "type": "DM",
+        "singleUserBotDm": true,
+        "threaded": false,
+        "displayName": "",
+        "memberships": [
+          {
+            "name": "spaces/mJm4HoAAAAE/members/103410925036831005298",
+            "state": "JOINED",
+            "member": {
+              "name": "users/103410925036831005298",
+              "displayName": "Harveer Singh",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-12-04T12:26:27.822982Z"
+          }
+        ]
+      },
+      {
+        "name": "spaces/xGuLiYAAAAE",
+        "type": "ROOM",
+        "singleUserBotDm": false,
+        "threaded": false,
+        "displayName": "",
+        "memberships": [
+          {
+            "name": "spaces/xGuLiYAAAAE/members/103225342601708409161",
+            "state": "JOINED",
+            "member": {
+              "name": "users/103225342601708409161",
+              "displayName": "Bhawna Varshney",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-12-16T09:03:08.191263Z"
+          },
+          {
+            "name": "spaces/xGuLiYAAAAE/members/106886033806500809026",
+            "state": "JOINED",
+            "member": {
+              "name": "users/106886033806500809026",
+              "displayName": "Lalitech Test User 1",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-12-16T09:03:08.191263Z"
+          }
+        ]
+      },
+      {
+        "name": "spaces/AAAAYkeUMXM",
+        "type": "ROOM",
+        "singleUserBotDm": false,
+        "threaded": false,
+        "displayName": "madh",
+        "memberships": [
+          {
+            "name": "spaces/AAAAYkeUMXM/members/103225342601708409161",
+            "state": "JOINED",
+            "member": {
+              "name": "users/103225342601708409161",
+              "displayName": "Bhawna Varshney",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-12-21T06:35:35.459693Z"
+          },
+          {
+            "name": "spaces/AAAAYkeUMXM/members/106886033806500809026",
+            "state": "JOINED",
+            "member": {
+              "name": "users/106886033806500809026",
+              "displayName": "Lalitech Test User 1",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-12-21T06:35:35.459693Z"
+          }
+        ]
+      },
+      {
+        "name": "spaces/AAAAYjcKOjk",
+        "type": "ROOM",
+        "singleUserBotDm": false,
+        "threaded": true,
+        "displayName": "testing123",
+        "memberships": [
+          {
+            "name": "spaces/AAAAYjcKOjk/members/103410925036831005298",
+            "state": "JOINED",
+            "member": {
+              "name": "users/103410925036831005298",
+              "displayName": "Harveer Singh",
+              "domainId": "27wizzn",
+              "type": "HUMAN",
+              "isAnonymous": false
+            },
+            "createTime": "2021-12-21T06:38:24.678601Z"
+          }
+        ]
+      }
+    ]
+  }
+}

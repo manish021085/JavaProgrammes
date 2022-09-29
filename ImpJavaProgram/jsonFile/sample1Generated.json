@@ -1,0 +1,8 @@
+{
+  "errorMessage": "Username is already registered",
+  "errorCode": "400 BAD_REQUEST",
+  "error": [
+    "User Already Exist"
+  ],
+  "timeStamp": "29-04-2022 07:21:43"
+}

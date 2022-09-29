@@ -1,0 +1,83 @@
+[
+  {
+    "user_Id_PK": "PHNX-3",
+    "firstName": "Manish",
+    "lastName": "Kumar",
+    "name": "Manish Kumar",
+    "accessToken": null,
+    "userName": "manishlalitech",
+    "email": "manish@lalitech.com",
+    "imageURL": null,
+    "emailVerified": true,
+    "userModel": {
+      "reg_Id_PK": "REG-3",
+      "userName": "manishlalitech",
+      "firstName": null,
+      "lastName": null,
+      "email": "manish@lalitech.com",
+      "password": "$2b$11$t7vjVZMpojycHMtJxvCjquurmOJyT3Y3l1vCnqX8cM7S9/BaEjDY.",
+      "dob": "1985-10-01T18:30:00.000+00:00",
+      "checkbox": true,
+      "uniqueId": "d7e94be9",
+      "emailVerified": true
+    },
+    "phoenixAccessToken": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYW5pc2hAbGFsaXRlY2guY29tIiwiVXNlciBzdWNjZXNzZnVsbHkgTG9naW4iOnRydWUsImV4cCI6MTY1MDkyOTExNywiaWF0IjoxNjUwODY5MTE3fQ.pb_BPHt0UhMd4fZMwMedYH-PlpsyVvisNadDc8QsJNaptJWTWwK5E45eaBX8au9pDykucty3_KL2ydFmssZxsQ",
+    "pheonixRefreshToken": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJyZWZyZXNoX3Rva2VuNDZlMjM5YjAtNzgyOC00YTVjLTlhZTMtNDI5NGQ2ZTEzNGI4IiwiaWF0IjoxNjUwODY5MTE3LCJleHAiOjE2NTI1OTcxMTd9.cUwhyv0eUQTnFZB_cNa91_nL67x2G8nRWpqWsbNyXsN3kpDvz6tBWqsXi6uPUv0LkX5pfDL9R1GgpYIwOBtz6A",
+    "uniqueId": "d7e94be9",
+    "provider": "local"
+  },
+  {
+    "user_Id_PK": "PHNX-4",
+    "firstName": "Manish",
+    "lastName": "Kumar",
+    "name": "Manish Kumar",
+    "accessToken": null,
+    "userName": "manishp",
+    "email": "manishksingh0210@gmail.com",
+    "imageURL": null,
+    "emailVerified": true,
+    "userModel": {
+      "reg_Id_PK": "REG-4",
+      "userName": "manishp",
+      "firstName": null,
+      "lastName": null,
+      "email": "manishksingh0210@gmail.com",
+      "password": "$2b$11$Rti21F09.E.zVx9ZNFe06erhqve3Xw.x6Fkl4DgYgNUKqNB4ZeeFW",
+      "dob": "1985-10-02T18:30:00.000+00:00",
+      "checkbox": true,
+      "uniqueId": "f3cad53c",
+      "emailVerified": true
+    },
+    "phoenixAccessToken": null,
+    "pheonixRefreshToken": null,
+    "uniqueId": "f3cad53c",
+    "provider": "local"
+  },
+  {
+    "user_Id_PK": "PHNX-5",
+    "firstName": "Manish",
+    "lastName": "Singh",
+    "name": "Manish Singh",
+    "accessToken": null,
+    "userName": "manishselenium",
+    "email": "manishseleniumjava@gmail.com",
+    "imageURL": null,
+    "emailVerified": true,
+    "userModel": {
+      "reg_Id_PK": "REG-5",
+      "userName": "manishselenium",
+      "firstName": null,
+      "lastName": null,
+      "email": "manishseleniumjava@gmail.com",
+      "password": "$2b$11$c.g2paY7.rIn/BOpH5iMleAkl3CFIDZiIGAhsnpT95tte5w79jHdK",
+      "dob": "1985-10-02T18:30:00.000+00:00",
+      "checkbox": true,
+      "uniqueId": "835cd94a",
+      "emailVerified": true
+    },
+    "phoenixAccessToken": null,
+    "pheonixRefreshToken": null,
+    "uniqueId": "835cd94a",
+    "provider": "local"
+  }
+]
